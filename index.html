@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site Bookmarker</title>
+
+    <!--  CSS Files-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    
+  <h1>Site Bookmarker</h1>
+    <div class="container">
+       <!-- form to enter details of site -->
+    <form class="form" action="#">
+      <div class="input-field">
+        <label for="site_name">Name</label>
+        <input name="site_name" type="text" 
+               placeholder="Site Name">
+      </div>
+  
+      <div class="input-field">
+        <label for="url">URL</label>
+        <input name="url" type="text" 
+               placeholder="https://www.example.com">
+      </div>
+          
+      <button class="save_button">Submit</button>
+    </form>
+  
+    <!-- section where bookmarks will be displayed   -->
+    <h2>Saved Bookmarks</h2>
+      
+    <div class="bookmarks"></div>
+  </div>
+      <footer class="footer">
+        <p>&copy; 2019 Bookmarker, Inc.</p>
+      </footer>
+
+    </div> 
+
+    <script
+    src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
